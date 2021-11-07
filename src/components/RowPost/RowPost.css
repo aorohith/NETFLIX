@@ -8,9 +8,9 @@
     overflow-x:scroll;
     overflow-y:hidden;
 }
-.posters::-webkit-scrollbar{
-    display:none;
-}
+    .posters::-webkit-scrollbar{
+        display:none;
+    }
 .poster{
     max-height:250px;
     margin-right:10px;
