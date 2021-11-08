@@ -12,10 +12,17 @@
         display:none;
     }
 .poster{
+    cursor:pointer;
     max-height:250px;
     margin-right:10px;
 }
 .smallposter{
+    cursor:pointer;
     max-height: 150px;
     margin-right:10px;
+}
+.poster:hover,.smallposter:hover{
+    transform: scale(1.2);
+    transition-delay:1s;
+    transition: transform .2s;
 }
